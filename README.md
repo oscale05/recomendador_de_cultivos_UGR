@@ -47,6 +47,8 @@ combinación fuera de la zona estudiada.
 
 ## Reentrenar el modelo
 
-Abrí el notebook en Google Colab (usa `google.colab.files.upload()` para subir el CSV),
-ejecutá todas las celdas en orden y descargá el `.pkl` generado. Reemplazá
-`modelo_recomendacion_cultivos.pkl` en la raíz del repo y hacé push.
+Abrí el notebook en Google Colab y ejecutá todas las celdas en orden: el dataset
+`Crop_recommendation.csv` se descarga **automáticamente** desde el raw de este repositorio
+(no hace falta subirlo a mano) y la última celda exporta y **descarga** el
+`modelo_recomendacion_cultivos.pkl`. Reemplazá ese archivo en la raíz del repo y hacé push
+(Streamlit Cloud redesplegará solo al detectar el cambio).
